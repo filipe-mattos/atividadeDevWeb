@@ -1,0 +1,155 @@
+.container{
+  max-width: 1040px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+body{
+  background-color: #F5F5F5;
+}
+
+img{
+  max-width: 100%;
+}
+
+.sapnd{
+  grid-column: span 2;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #615050;
+  padding: 20px 90px;
+}
+
+.header-menu ul{
+  display: flex;
+}
+
+.header-menu ul > li + li{
+  padding-left: 10px;
+}
+
+.header-menu ul li > a{
+  color: #AD9A6F;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1.25rem;
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: bold;
+}
+
+.header-menu ul li > a:hover{
+  color: #FCFCFC;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+
+.hero-image{
+  background-color: #F5F1E8;
+  width: 100%;
+  height: 400px;
+}
+
+.hero-image > div{
+  padding-top: 50px;
+}
+
+.hero-image div > p{
+  font-size: 1rem;
+  color: #776A6A;
+  font-weight: bold;
+  font-family: 'Nunito', sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  margin-right: 417px;
+}
+
+.hero-image div > h1{
+  font-size: 4rem;
+  color: #615050;
+  font-weight: bold;
+  font-family: 'Nunito', sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.form-section{
+  background-color: #776A6A;
+  border-radius: 4px 0 0 4px;
+  height: 444px;
+  max-width: 400px;
+}
+
+.form{
+  background-color: #FFFFFF;
+  border-radius: 0 4px 4px 0;
+  max-width: 460px;
+  padding: 40px;
+}
+
+.form-block{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+
+.form-block label{
+  display: block;
+  color: #615050;
+  font-family: 'Nunito', sans-serif;
+  font-weight: bold;
+  margin-bottom: 2px;
+}
+
+.form-block input[type = "text"],
+.form-block input[type = "tel"],
+.form-block input[type = "email"],
+.form-block textarea{
+  font-family: monospace;
+  font-size: 1rem;
+  background-color: #F4F4F2;
+  border: none;
+  border-radius: 4px;
+  padding: 6px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.form-block input[type = "text"]:focus,
+.form-block input[type = "email"]:focus,
+.form-block input[type = "tel"]:focus,
+.form-block textarea:focus{
+  outline: none;
+  border: 1px solid #AD9A6F;
+  background: #F5F1E8;
+}
+
+.form button{
+  margin: 36px 0 0 25%;
+  text-align: center;
+  padding: 10px 40px;
+  background: #F4F4F2;
+  color: #615050;
+  font-family: 'Nunito', sans-serif;
+  font-weight: bold;
+  font-size: 1rem;
+  border-radius: 4px;
+  border: none;
+  text-transform: uppercase;
+}
+
+.form button:hover{
+  background: #615050;
+  color: #fff;
+  cursor: pointer;
+}
+
+.floating{
+  position: relative;
+  top: -200px;
+}

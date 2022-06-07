@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/css/reset.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+  <title>Minamal Coffe</title>
+</head>
+<body>
+  <header class="header">
+    <div class="header-logo">
+      <img src="./assets/img/minimal-coffe.png" alt="logo minimal coffe e uma chicara de café">
+    </div>
+    <nav class="header-menu">
+      <ul>
+        <li><a href="#">Produtos</a></li>
+        <li class="ativo"><a href="#">Contato</a></li>
+        <li><a href="#">Sobre</a></li>
+        <li><a href="#">Home</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="hero-image">
+      <div>
+        <p>Para mais informações</p>
+        <h1>Entre em contato</h1>
+      </div>
+    </section>
+    <section class="container floating">
+      <div class="form-section">
+        <img src="./assets/img/coffe-image.png">
+      </div>
+      <form class="form">
+        <div class="form-block">
+          <div>
+            <label for="nome">Nome</label>
+            <input type="text" name="nome" placeholder="Seu nome">
+          </div>
+          <div>
+            <label for="telefone">Telefone</label>
+            <input name="telefone" type="tel" placeholder="Seu Telefone">
+          </div>
+          <div class="sapnd">
+            <label for="email">Email</label>
+            <input type="email" name="email" placeholder="Seu E-mail">
+          </div>
+          <div class="sapnd">
+            <label for="mensagem">Mensagem</label>
+            <textarea rows="5" id="mensagem" name="mensagem" placeholder="Sua Mensagem"></textarea>
+          </div>
+        </div>
+        <button type="submit">Enviar Mensagem</button>
+      </form>
+    </section>
+  </main>
+</body>
+</html>
